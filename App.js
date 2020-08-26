@@ -5,18 +5,22 @@ import Icon from 'react-native-vector-icons/MaterialIcons';
 export default function App() {
   return (
     <View style={styles.container}>
+
       <View style={styles.button}>
         <Icon name="person" size={40}></Icon>
         <Text>Sair</Text>
       </View>
+
       <View style={styles.button}>
         <Icon name="camera-alt" size={40}></Icon>
         <Text>Câmera</Text>
       </View>
+
       <View style={styles.button}>
         <Icon name="exit-to-app" size={40}></Icon>
         <Text>Sair</Text>
       </View>
+
     </View>
   );
 }
