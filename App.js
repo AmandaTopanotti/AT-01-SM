@@ -8,7 +8,7 @@ export default function App() {
 
       <View style={styles.button}>
         <Icon name="person" size={40}></Icon>
-        <Text>Sair</Text>
+        <Text>Perfil</Text>
       </View>
 
       <View style={styles.button}>
